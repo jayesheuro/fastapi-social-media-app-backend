@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+venv_3_12/
+.venv/
+env/
+envs/
+.python-version
+
+# Dependencies
+pip-wheel-metadata/
+*.egg-info/
+build/
+dist/
+
+# FastAPI / hosting
+.fastapi/
+fastapi_cloud/
+instance/
+
+# Local environment variables
+.env
+.env.*
+*.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+.nox/
+
+# Logging
+*.log
+logs/
+
+# Database files
+*.sqlite3
+
+# Optional Python cache folders
+.mypy_cache/
+.pytype/
+__pypackages__/
