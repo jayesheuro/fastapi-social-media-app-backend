@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "hello dear", "custom_key": "custom_value"}
+    return {"message": "Hello World", "custom_key": "custom_value"}
 
 
 @app.get("/posts")
